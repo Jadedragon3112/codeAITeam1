@@ -1,0 +1,119 @@
+
+POST http://127.0.0.1:8001/api/chat/v4
+Content-Type: application/json
+
+{
+    "user_input": "How many currencies the offer/contract transacted, what is the primary currency and what the exchange rate?"
+}
+
+### Q1
+# @name chat
+POST http://127.0.0.1:8001/api/chat/v4
+Content-Type: application/json
+
+{
+    "user_input": "What kind of template is this?"
+}
+
+### Q2
+# @name chat
+POST http://127.0.0.1:8001/api/chat/v4
+Content-Type: application/json
+
+{
+    "user_input": "What action should be taken on this file?"
+}
+
+### Q3
+# @name chat
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "Which customer is this template representing?"
+}
+
+### Q4
+# @name chat
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "What is the location of the customer?"
+}
+
+### Q5
+# @name chat
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "How many project phases are there?"
+}
+
+### Q6
+# @name chat
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "Whats the start date of Phase 1?"
+}
+
+###
+# @name chat_G8
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "How many currencies the offer/contract transacted, what is the primary currency and what the exchange rate?"
+}
+
+###
+# Are all the contextual data used with the product boq?
+# Show the Design Type, Description, CLP Phase 1 of product 473096A with Element Type as CPB T1?
+# @name chat_G9
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "Are all the contextual data used with the product boq?"
+}
+
+###
+# @name chat_G10
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "Are there any duplicates on any of the sheets?"
+}
+
+### List all pricing schemes
+# @name chat_G11
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "Show all the pricing schemes?"
+}
+
+###
+# @name chat_G12
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "What is the pricing discount across pricing schemes?"
+}
+
+###
+# How many SI AC CPBs are there in the dataset?
+# How many type 1 & type 2 CPBs are there in the dataset?
+# @name chat_G13
+POST http://127.0.0.1:8001/api/chat
+Content-Type: application/json
+
+{
+    "user_input": "How many SI AC are there in the dataset?"
+}
